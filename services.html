@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwind.css"></script>
     <title>Project Hub</title>
+
   </head>
   <body>
     <header>
@@ -13,16 +15,57 @@
       </nav>
     </header>
     <main>
+      <style>
+       .centered{
+          text-align: center;
+          height: 100px;
+       }
+       body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color:white;
+        }
+        header {
+            background: #1a4d8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px;
+            background-color: white;
+            margin:20px;
+            box-shadow: 0 0 10px rgba(0, 0,);
+            border-radius: 10px;
+        }
+      </style> 
+
         <section>
-            <h1>Services</h1>
-            <p>     </p>
+            <h1 class="centered">🛠️ SERVICES</h1>
+            <h2 class="centered">Details about the services offered will go here. Replace this text with your services section content.</h2>
         </section>
+        <div class="section" id="services">
 
+      <h2 class="centered"> Our services</h2>
+      <h3>AI-Powered Material Recommendations</h3>
+      <p>We analyze your project requirements—such as strength, weight, and temperature—and suggest the best engineering material using AI-enhanced reasoning.</p>  
+<h3>Mechanical Property Evaluation</h3>
+<p>We break down key material characteristics like tensile strength, density, and thermal resistance to help you understand how each material performs.</p>
+<h3>Design Guidance for Students & Builders</h3>
+<p>Whether you're working on a school project or building a prototype, we provide simple, clear recommendations to help you choose smarter and design better.</p>
+<h3>Comparison Tools</h3>
+<p>Quickly compare two or more materials side-by-side to see differences in performance, durability, and suitability for your design.</p>
 
-
-
-
-
+</div>
+<footer>
+      <small>Mech Ai Services &copy; 2025 Project Hub</small>
+    </footer>
         
     </main>
   </body>

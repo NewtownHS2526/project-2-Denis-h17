@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwind.css"></script>
     <title>Project Hub</title>
   </head>
   <body>
@@ -13,17 +14,51 @@
       </nav>
     </header>
     <main>
-        <section>
+      <style>
+       .centered{
+          text-align: center;
+          height: 100px;
+       }
+       body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color:white;
+        }
+        header {
+            background: #1a4d8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px;
+            background-color: white;
+            margin:20px;
+            box-shadow: 0 0 10px rgba(0, 0,);
+            border-radius: 10px;
+        }
+
+      </style> 
+        <section class="centered">
             <h1>Contact Us</h1>
             <p>If you have any questions or would like to get in touch, please reach out via the following methods. Replace this text with your contact information.</p>
         </section>
+        <div class="section" id="contact">
+<h3> Email:</h3>
+<p>Denish11@nycstudents.net</p>
+<h3>GitHub:</h3>
+<a href="https://github.com/Denis-h17">https://github.com/Denis-h17</a>
+</div>
+<footer>
+      <small> Mech Ai Services&copy; 2025 Project Hub</small>
+    </footer>
 
-
-
-
-
-
-        
     </main>
     </body>
 </html>

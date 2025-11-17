@@ -3,27 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Hub</title>
+    <script src="https://cdn.tailwind.css"></script>
+    <title>Project Hub - Mech AI Services</title>
   </head>
-  <body>
+  <body class="flex flex-col min-h-screen justify-between background-gray-100">
     <header>
       <nav>
         <a href="index.html">Home</a>
-        <a href="#">Page 2</a>
-        <a href="#">Page 3</a>
-        <a href="#">Page 4</a>
-        <a href="#">Page 5</a>
-        <a href="#">Page 6</a>
+        <a href="services.html">Services</a>
+        <a href="Product.html">Product</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About</a>
+        
       </nav>
     </header>
     <main>
+      <style>
+       .centered{
+          text-align: center;
+       }
+       body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color:white;
+        }
+        header {
+            background: #1a4d8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px;
+            background-color: white;
+            margin:20px;
+            box-shadow: 0 0 10px rgba(0, 0,);
+            border-radius: 10px;
+        }
+
+      </style>
       <section>
-        <h1> AI Material Selector</h1>
-        <p>“Find the perfect material for your mechanical design — enhanced with AI reasoning.”</p>
+        <div class="section" id="index">
+        <h1 class="centered"> AI Material Selector - Mech AI Services </h1>
+        <p class="centered">“Find the perfect material for your mechanical design — enhanced with AI reasoning.”</p>
+        </div>
+        
       </section>
     </main>
     <footer>
-      <small>&copy; 2025 Project Hub</small>
+      <small> Mech Ai Services&copy; 2025 Project Hub</small>
     </footer>
   </body>
 </html>

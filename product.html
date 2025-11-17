@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwind.css"></script>
     <title>Project Hub</title>
   </head>
   <body>
@@ -14,15 +15,54 @@
     </header>
     <main>
         <section>
-            <h1>The product</h1>
-            <p>Information about the project and team will go here. Replace this text with your about section content.</p>
+            <h1 class="centered">📦 PRODUCT</h1>
+            <h2 class="centered">AI Material Selector Tool</h2>
         </section>
-
-
-
-
-
-
+        <style>
+       .centered{
+          text-align: center;
+          height: 100px;
+       }
+       body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color:white;
+        }
+        header {
+            background: #1a4d8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 40px;
+            background-color: white;
+            margin:20px;
+            box-shadow: 0 0 10px rgba(0, 0,);
+            border-radius: 10px;
+        }
+      </style> 
+      <div class="section" id="product">
+<h3>AI Material Selector Tool</h3>
+<p>Our main product is an easy-to-use tool that helps you pick the perfect engineering material for any mechanical design.</p>
+<p>You enter basic requirements, and the tool provides:</p>
+<ul>
+  <li>A recommended material</li>
+  <li>A breakdown of its mechanical properties</li>
+  <li>An AI-generated explanation based on your needs</li>
+  <li>Suggestions for alternative materials</li>
+  </ul>
+<p>This tool makes material selection faster, simpler, and more accurate for students, hobbyists, and beginner engineers.</p>
+</div>
+<footer>
+      <small> Mech Ai Services &copy; 2025 Project Hub</small>
+    </footer>
 
     </main>
     </body>
